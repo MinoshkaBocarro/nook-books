@@ -10,16 +10,18 @@ function Header() {
 						href="/"
 						className="flex flex-row items-center hover:text-brand"
 					>
-						<Image
-							className="relative w-auto h-9 left-2 rotate-6"
-							src="/logo.jpg"
-							alt="Nook Books' logo"
-							width="1372"
-							height="3982"
-						/>
-						<span className="-mr-10 text-4xl font-brand">
-							Nook Books
-						</span>
+						<div className="flex">
+							<Image
+								className="relative w-auto h-9 left-2 rotate-6"
+								src="/logo.jpg"
+								alt="Nook Books' logo"
+								width="1372"
+								height="3982"
+							/>
+							<span className="-mr-10 text-4xl font-brand">
+								Nook Books
+							</span>
+						</div>
 					</Link>
 				</div>
 				<nav className="text-2xl uppercase font-heading">
