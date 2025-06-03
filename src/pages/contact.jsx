@@ -17,7 +17,7 @@ function ContactPage() {
 			</a>
 			<h2>Credits</h2>
 			<p>
-				Bookshelf in logo designed by
+				Bookshelf in logo and hero borders designed by
 				<a href="https://www.freepik.com"> Freepik</a>
 			</p>
 		</>
