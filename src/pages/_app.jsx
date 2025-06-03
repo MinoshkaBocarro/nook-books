@@ -1,4 +1,8 @@
+// modules
 import Script from "next/script";
+
+// components
+import Layout from "@/components/layout";
 
 export default function App({ Component, pageProps }) {
 	return (
@@ -14,7 +18,9 @@ export default function App({ Component, pageProps }) {
 
         gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`}
 			</Script>
-			<Component {...pageProps} />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
 		</>
 	);
 }

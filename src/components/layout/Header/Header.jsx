@@ -3,7 +3,6 @@ import Link from "next/link";
 function Header() {
 	return (
 		<>
-			(
 			<header>
 				<div>
 					<Link href="/">Nook Books</Link>
@@ -22,7 +21,6 @@ function Header() {
 					</ul>
 				</nav>
 			</header>
-			)
 		</>
 	);
 }
