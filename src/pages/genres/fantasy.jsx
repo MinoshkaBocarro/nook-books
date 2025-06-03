@@ -9,8 +9,12 @@ function FantasyPage({ books }) {
 }
 
 export const getStaticProps = async () => {
-	const response = await fetch(`${process.env.SERVER_NAME}/api/books`);
+	const response = await fetch(
+		`${process.env.SERVER_NAME}/api/books/genres/fantasy/`
+	);
 	const data = await response.json();
+
+	console.log(data);
 
 	if (!response.ok) {
 		throw new Error(
