@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+	--font-primary: "Nunito", apple-system, sans-serif;
+	--font-heading: "Bree Serif", serif;
+	--font-brand: "Pacifico", cursive;
+
+	--color-primary: var(--color-teal-400);
+	--color-secondary: var(--color-pink-200);
+	--color-brand: var(--color-orange-200);
+	--color-background: #fffdfa;
+	--color-text: oklch(23.574% 0.066 313.189);
+}
+
+.newClass {
+	color: #fffdfa;
+}

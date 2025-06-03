@@ -4,6 +4,9 @@ import Script from "next/script";
 // components
 import Layout from "@/components/layout";
 
+// styles
+import "@/styles/globals.css";
+
 export default function App({ Component, pageProps }) {
 	return (
 		<>
