@@ -1,7 +1,9 @@
-import Container from "@/components/common/placement/Container";
-import HeroSection from "@/components/features/HeroSection";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+
+// Components
+import Container from "@/components/common/placement/Container";
+import HeroSection from "@/components/features/HeroSection";
 
 function ContactPage() {
 	return (
