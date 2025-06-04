@@ -18,8 +18,9 @@ function HomePage() {
 				></div>
 				<HeroSection
 					title="Welcome to"
-					subtitle="A world of stories, knowledge and imagination awaits. Discover your next favourite read"
-					button="Start Your Journey"
+					subtitle="A world of stories, knowledge and imagination awaits. Discover your next favourite read!"
+					buttonContent="Start Your Journey"
+					buttonPath="/genres"
 				></HeroSection>
 				<div
 					className="w-[100vw] h-[130px] bg-repeat-x bg-contain"
