@@ -25,6 +25,14 @@ module.exports = (phase) => {
 				protocol: "https",
 				hostname: "covers.openlibrary.org",
 			},
+			{
+				protocol: "https",
+				hostname: "**.**",
+			},
+			{
+				protocol: "https",
+				hostname: "**.**.**",
+			},
 		],
 	};
 

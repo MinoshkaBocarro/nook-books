@@ -419,7 +419,7 @@ export const books = [
 			"By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left there by accident, and it is her first act of book thievery.",
 			"So begins a love affair with books and words, as Liesel, with the help of her accordion-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found. But these are dangerous times. When Liesel's foster family hides a Jewish fist-fighter in their basement, Liesel's world is both opened up, and closed down.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9781476746586",
@@ -432,7 +432,7 @@ export const books = [
 			"Marie Laure lives with her father in Paris within walking distance of the Museum of Natural History where he works as the master of the locks (there are thousands of locks in the museum). When she is six, she goes blind, and her father builds her a model of their neighborhood, every house, every manhole, so she can memorize it with her fingers and navigate the real streets with her feet and cane. When the Germans occupy Paris, father and daughter flee to Saint-Malo on the Brittany coast, where Marie-Laure's agoraphobic great uncle lives in a tall, narrow house by the sea wall.",
 			"In another world in Germany, an orphan boy, Werner, grows up with his younger sister, Jutta, both enchanted by a crude radio Werner finds. He becomes a master at building and fixing radios, a talent that wins him a place at an elite and brutal military academy and, ultimately, makes him a highly specialized tracker of the Resistance. Werner travels through the heart of Hitler Youth to the far-flung outskirts of Russia, and finally into Saint-Malo, where his path converges with Marie-Laure.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780312577223",
@@ -445,7 +445,7 @@ export const books = [
 			"Despite their differences, sisters Vianne and Isabelle have always been close. Younger, bolder Isabelle lives in Paris while Vianne is content with life in the French countryside with her husband Antoine and their daughter. But when the Second World War strikes, Antoine is sent off to fight and Vianne finds herself isolated so Isabelle is sent by their father to help her.",
 			"As the war progresses, the sisters' relationship and strength are tested. With life changing in unbelievably horrific ways, Vianne and Isabelle will find themselves facing frightening situations and responding in ways they never thought possible as bravery and resistance take different forms in each of their actions.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780399155345",
@@ -461,7 +461,7 @@ export const books = [
 			"Minny, Aibileen's best friend, is short, fat, and perhaps the sassiest woman in Mississippi. She can cook like nobody's business, but she can't mind her tongue, so she's lost yet another job. Minny finally finds a position working for someone too new to town to know her reputation. But her new boss has secrets of her own.",
 			"Seemingly as different from one another as can be, these women will nonetheless come together for a clandestine project that will put them all at risk. And why? Because they are suffocating within the lines that define their town and their times. And sometimes lines are made to be crossed.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780440242949",
@@ -476,7 +476,7 @@ export const books = [
 			"Unfortunately, Black Jack Randall is not the man his descendant is, and while trying to escape him, Claire falls into the hands of a gang of Scottish outlaws, and finds herself a Sassenach - an outlander - in danger from both Jacobites and Redcoats.",
 			"Marooned amid danger, passion and violence, her only chance of safety lies in Jamie Fraser, a gallant young Scots warrior. What begins in compulsion becomes urgent need, and Claire finds herself torn between two very different men, in two irreconcilable lives.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780451222138",
@@ -493,7 +493,7 @@ export const books = [
 			"A WORLD OF HIGH IDEALS AND SAVAGE CRUELTY",
 			"As Tom and Philip meet so begins an epic tale of ambition, anarchy and absolute power. In a world beset by strife and enemies that would thwart their plans, they will stop at nothing to achieve their ambitions in a struggle between good and evil that will turn church against state, and brother against brother . . .",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9781400096893",
@@ -505,7 +505,7 @@ export const books = [
 		description: [
 			"Speaking to us with the wisdom of age and in a voice at once haunting and startlingly immediate, Nitta Sayuri tells the story of her life as a geisha. It begins in a poor fishing village in 1929, when, as a nine-year-old girl with unusual blue-gray eyes, she is taken from her home and sold into slavery to a renowned geisha house. We witness her transformation as she learns the rigorous arts of the geisha: dance and music; wearing kimono, elaborate makeup, and hair; pouring sake to reveal just a touch of inner wrist; competing with a jealous rival for men's solicitude and the money that goes with it. This is a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most powerful men; and where love is scorned as illusion.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9781455563937",
@@ -517,7 +517,7 @@ export const books = [
 		description: [
 			"In the early 1900s, teenaged Sunja, the adored daughter of a crippled fisherman, falls for a wealthy stranger at the seashore near her home in Korea. He promises her the world, but when she discovers she is pregnant--and that her lover is married--she refuses to be bought. Instead, she accepts an offer of marriage from a gentle, sickly minister passing through on his way to Japan. But her decision to abandon her home, and to reject her son's powerful father, sets off a dramatic saga that will echo down through the generations.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780446310789",
@@ -530,7 +530,7 @@ export const books = [
 			"'Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.'",
 			"A lawyer's advice to his children as he defends a black man falsely charged with the rape of a white girl. The conscience of a town in the Deep South of the 1930s, steeped in prejudice, violence and hypocrisy, is pricked by the stamina of one man's struggle for justice. But as we see through the young eyes of Scout and Jem Finch, the weight of history will only tolerate so much.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780385660075",
@@ -542,7 +542,7 @@ export const books = [
 		description: [
 			"Afghanistan, 1975: Twelve-year-old Amir is desperate to win the local kite-fighting tournament and his loyal friend Hassan promises to help him. But neither of the boys can foresee what will happen to Hassan that afternoon, an event that is to shatter their lives. After the Russians invade and the family is forced to flee to America, Amir realises that one day he must return to Afghanistan under Taliban rule to find the one thing that his new world cannot grant him: redemption.",
 		],
-		genre: "historical fiction",
+		genre: "historical-fiction",
 	},
 	{
 		isbn: "9780312330873",
