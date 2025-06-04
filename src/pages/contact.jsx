@@ -44,6 +44,15 @@ function ContactPage() {
 							<span className="link">Flaticon</span>
 						</a>
 					</p>
+					<p>
+						{" "}
+						<a
+							href="https://www.flaticon.com/free-icons/japanese"
+							title="japanese icons"
+						>
+							Tanuki icon created by Vitaly Gorbachev - Flaticon
+						</a>
+					</p>
 				</div>
 			</Container>
 		</>
