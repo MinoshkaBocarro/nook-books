@@ -1,21 +1,66 @@
+import Image from "next/image";
+import Link from "next/link";
+
 function BookDetailPage({ book }) {
 	const { title, series, bookNumber, imageUrl, author, description, genre } =
 		book;
 	return (
 		<>
-			<p>This is a book detail page</p>
-			<div>{title}</div>
-			<div>{series}</div>
-			<div>{bookNumber}</div>
-			<div>{imageUrl}</div>
-			<div>{author}</div>
-			<div>{description}</div>
+			<div className="grid grid-cols-1 md:grid-cols-[155px_minmax(200px,_1fr)] gap-6 p-6 mx-auto max-w-7xl">
+				<div className="md:col-span-1">
+					{" "}
+					<Link href={`/genres/${genre}`}>
+						<Image
+							className="w-auto h-20"
+							src="/book-detail-bookshelf.jpg"
+							alt={`Back to ${genre}`}
+							width={2000}
+							height={2000}
+						></Image>
+					</Link>
+				</div>
+				<div className="flex flex-col gap-8 rounded-md md:flex-row bg-second/20">
+					<div className="flex items-center flex-shrink-0 w-full md:w-2/5">
+						<Image
+							src={imageUrl}
+							alt={title}
+							width={350}
+							height={525}
+							className="w-full"
+							priority
+						/>
+					</div>
+					<div className="flex flex-col gap-6 p-4 md:w-2/3">
+						<h1 className="self-center text-5xl font-heading">
+							{title}
+						</h1>
+						<div className="flex flex-col gap-2">
+							{series !== "Standalone" && (
+								<p className="text-base">
+									<span className="font-semibold">
+										Series:
+									</span>{" "}
+									{`#${bookNumber} ${series}`}
+								</p>
+							)}
+							<p className="text-base">
+								<span className="font-semibold">Author:</span>{" "}
+								{author}
+							</p>
+						</div>
+						<div className="flex flex-col gap-2">
+							{description.map((para) => (
+								<p>{para}</p>
+							))}
+						</div>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 }
 
 export const getStaticProps = async (context) => {
-	console.log("static props is runnnnnnning");
 	const bookQuery = context.params.isbn;
 
 	const response = await fetch(
