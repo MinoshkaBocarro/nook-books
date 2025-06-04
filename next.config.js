@@ -19,9 +19,19 @@ module.exports = (phase) => {
 		NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID,
 	};
 
+	const images = {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "covers.openlibrary.org",
+			},
+		],
+	};
+
 	// Next.config returns an object
 	return {
 		reactStrictMode,
 		env,
+		images,
 	};
 };

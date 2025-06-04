@@ -34,7 +34,7 @@ function HeroSection({
 						</div>
 					)}
 				</h1>
-				<div>{subtitle}</div>
+				{subtitle && <div>{subtitle}</div>}
 				{buttonContent && (
 					<NBButtonLink path={buttonPath}>
 						{buttonContent}

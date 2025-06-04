@@ -1,10 +1,14 @@
+import BookList from "@/components/features/bookGenres/BookList";
+import HeroSection from "@/components/features/HeroSection";
+
 function FantasyPage({ books }) {
 	return (
-		<div>
-			<p>This is a fantasy page</p>
-			{books.length > 0 &&
-				books.map((book) => <p key={book.isbn}>{book.title}</p>)}
-		</div>
+		<>
+			<HeroSection title="Fantasy" />
+			<div className="pt-10 px-31">
+				<BookList books={books} />
+			</div>
+		</>
 	);
 }
 
