@@ -21,7 +21,7 @@ function GenresPage() {
 						</Link>
 					</li>
 					<li>
-						<Link href="/genres/science-fiction">
+						<Link href="/genres/sci-fi">
 							🌌 <span className="link link-success">Sci-fi</span>
 							- Break the walls beyond reality
 						</Link>
@@ -50,7 +50,7 @@ function GenresPage() {
 						</Link>
 					</li>
 					<li>
-						<Link href="/genres/biographies">
+						<Link href="/genres/biography">
 							📖{" "}
 							<span className="link link-success">
 								Biographies
