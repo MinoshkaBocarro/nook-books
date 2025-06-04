@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function HeroSection({ title, subtitle, button }) {
 	return (
-		<div className="flex flex-col items-center px-40 shadow-[0_0_5px_10px_rgba(0,0,0,0.2)] bg-secondary/20 shadow-pink-50 py-15 text-center gap-9">
+		<div className="flex flex-col items-center px-40 shadow-[0_0_5px_10px_rgba(0,0,0,0.2)] bg-second/20 shadow-pink-50 py-15 text-center gap-9">
 			<h1 className="flex flex-col items-center gap-3 font-heading">
 				<div className="pl-10 text-5xl">{title}</div>
 				<div className="flex">

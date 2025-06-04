@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Header() {
 	return (
-		<header className="bg-primary text-text drop-shadow-md">
+		<header className="bg-prime text-text drop-shadow-md">
 			<div className="container flex flex-row items-center justify-between px-20 mx-auto">
 				<div className="py-4">
 					<Link
