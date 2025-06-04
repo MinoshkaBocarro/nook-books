@@ -35,6 +35,15 @@ function ContactPage() {
 							Freepik
 						</a>
 					</p>
+					<p>
+						<a
+							href="https://www.flaticon.com/free-icons/bookshelf"
+							title="bookshelf icons"
+						>
+							Bookshelf favicon created by Freepik -{" "}
+							<span className="link">Flaticon</span>
+						</a>
+					</p>
 				</div>
 			</Container>
 		</>
