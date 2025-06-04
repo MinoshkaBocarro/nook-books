@@ -18,9 +18,9 @@ function HeroSection({
 
 			<div className="flex flex-col items-center px-40 shadow-[0_0_5px_10px_rgba(0,0,0,0.2)] bg-second/20 shadow-pink-50 py-15 text-center gap-9">
 				<h1 className="flex flex-col items-center gap-3 font-heading">
-					<div className="pl-10 text-5xl">{title}</div>
+					<div className="text-5xl">{title}</div>
 					{logo && (
-						<div className="flex">
+						<div className="flex pt-4 pr-10">
 							<Image
 								className="relative w-auto h-17 left-4 rotate-6"
 								src="/logo.jpg"
