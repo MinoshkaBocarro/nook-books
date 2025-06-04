@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NBButtonLink from "../util/NBButtonLink";
 
-function HeroSection({ title, subtitle, buttonContent, buttonPath }) {
+function HeroSection({ title, subtitle, buttonContent, buttonPath, children }) {
 	return (
 		<div>
 			<div
@@ -30,6 +30,7 @@ function HeroSection({ title, subtitle, buttonContent, buttonPath }) {
 						{buttonContent}
 					</NBButtonLink>
 				)}
+				{children}
 			</div>
 		</div>
 	);
