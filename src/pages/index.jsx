@@ -1,4 +1,4 @@
-import HeroSection from "@/components/common/placement/HeroSection";
+import HeroSection from "@/components/features/HeroSection";
 import Head from "next/head";
 
 function HomePage() {
@@ -13,6 +13,7 @@ function HomePage() {
 			</Head>
 			<HeroSection
 				title="Welcome to"
+				logo={true}
 				subtitle="A world of stories, knowledge and imagination awaits. Discover your next favourite read!"
 				buttonContent="Start Your Journey"
 				buttonPath="/genres"

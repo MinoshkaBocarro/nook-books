@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // components
-import HeroSection from "@/components/common/placement/HeroSection";
+import HeroSection from "@/components/features/HeroSection";
 import Container from "@/components/common/placement/Container";
 
 function AboutPage() {
@@ -9,6 +9,7 @@ function AboutPage() {
 		<>
 			<HeroSection
 				title="About"
+				logo={true}
 				subtitle="Creating a welcoming, cozy space for all
 				bookworms to browse books to their hearts' content."
 			/>

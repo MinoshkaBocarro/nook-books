@@ -1,5 +1,5 @@
 import Container from "@/components/common/placement/Container";
-import HeroSection from "@/components/common/placement/HeroSection";
+import HeroSection from "@/components/features/HeroSection";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -8,6 +8,7 @@ function ContactPage() {
 		<>
 			<HeroSection
 				title="Contact"
+				logo={true}
 				subtitle="Please check out my other work and contacts"
 			>
 				<div className="flex **:text-6xl **:text-prime gap-4">
