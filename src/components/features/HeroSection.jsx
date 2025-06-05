@@ -22,7 +22,7 @@ function HeroSection({
 					{logo && (
 						<div className="flex pt-4 pr-10">
 							<Image
-								className="relative left-4"
+								className="relative left-4 rotate-6"
 								src="/logo.jpg"
 								alt="Nook Books' logo"
 								width={23.31}
