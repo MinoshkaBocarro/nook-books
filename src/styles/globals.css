@@ -1,14 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
-
 @import "tailwindcss";
 @plugin "daisyui";
 
-@theme {
-	--font-primary: "Nunito", apple-system, sans-serif;
-	--font-heading: "Bree Serif", serif;
-	--font-brand: "Pacifico", cursive;
+@theme inline {
+	--font-primary: var(--font-nunito), apple-system, sans-serif;
+	--font-heading: var(--font-breeSerif), serif;
+	--font-brand: var(--font-pacifico), cursive;
 
 	--color-prime: var(--color-teal-400);
 	--color-second: var(--color-pink-200);
