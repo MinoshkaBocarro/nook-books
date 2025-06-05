@@ -26,7 +26,7 @@ function BookDetailPage({ book }) {
 						></Image>
 					</Link>
 				</div>
-				<div className="flex flex-col gap-3 rounded-md md:flex-row bg-second/20">
+				<div className="flex flex-col gap-5 rounded-md md:flex-row bg-second/20">
 					<div className="flex items-center justify-center flex-shrink-0 w-full md:w-2/5">
 						<div className="relative w-full max-w-[450px] aspect-[350/525] overflow-hidden">
 							<Image
