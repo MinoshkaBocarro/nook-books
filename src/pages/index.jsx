@@ -20,7 +20,7 @@ function HomePage() {
 			></HeroSection>
 			<div
 				className="w-[100vw] h-[130px] bg-repeat-x bg-contain"
-				style={{ backgroundImage: "url('/hero-edge-bottom.jpg')" }}
+				style={{ backgroundImage: "url('/hero-edge-bottom.webp')" }}
 			></div>
 		</>
 	);

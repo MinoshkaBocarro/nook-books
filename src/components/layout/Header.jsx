@@ -13,7 +13,7 @@ function Header() {
 						<div className="flex">
 							<Image
 								className="relative left-2 rotate-6"
-								src="/logo.jpg"
+								src="/logo.webp"
 								alt="Nook Books' logo"
 								width={12.4}
 								height={36}

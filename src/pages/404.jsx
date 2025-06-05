@@ -11,7 +11,7 @@ function NotFoundPage() {
 						"Were you looking for a certain{" "}
 						<Image
 							className="inline"
-							src="/tanuki.png"
+							src="/tanuki.webp"
 							alt="Tanuki"
 							width={40}
 							height={40}

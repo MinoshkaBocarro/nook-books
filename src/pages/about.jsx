@@ -15,7 +15,7 @@ function AboutPage() {
 			/>
 			<Container>
 				<Image
-					src="/about-page-bookshelf.jpg"
+					src="/about-page-bookshelf.webp"
 					alt="A cute cartoon bookshelf"
 					width={272}
 					height={272}

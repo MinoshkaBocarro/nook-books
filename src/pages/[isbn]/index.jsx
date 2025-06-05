@@ -11,7 +11,7 @@ function BookDetailPage({ book }) {
 					{" "}
 					<Link href={`/genres/${genre}`}>
 						<Image
-							src="/book-detail-bookshelf.jpg"
+							src="/book-detail-bookshelf.webp"
 							alt={`Back to ${genre}`}
 							width={154.31}
 							height={80}

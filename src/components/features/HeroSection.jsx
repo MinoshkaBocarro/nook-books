@@ -13,7 +13,7 @@ function HeroSection({
 		<div>
 			<div
 				className="w-[100vw] h-[130px] bg-repeat-x bg-contain"
-				style={{ backgroundImage: "url('/hero-edge-top.jpg')" }}
+				style={{ backgroundImage: "url('/hero-edge-top.webp')" }}
 			></div>
 
 			<div className="flex flex-col items-center px-40 shadow-[0_0_5px_10px_rgba(0,0,0,0.2)] bg-second/20 shadow-pink-50 py-15 text-center gap-9">
@@ -23,7 +23,7 @@ function HeroSection({
 						<div className="flex pt-4 pr-10">
 							<Image
 								className="relative left-4 rotate-6"
-								src="/logo.jpg"
+								src="/logo.webp"
 								alt="Nook Books' logo"
 								width={23.31}
 								height={68}
