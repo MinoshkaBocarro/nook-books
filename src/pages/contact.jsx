@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Head from "next/head";
 
 // Components
 import Container from "@/components/common/placement/Container";
@@ -8,6 +9,13 @@ import HeroSection from "@/components/features/HeroSection";
 function ContactPage() {
 	return (
 		<>
+			<Head>
+				<title>Nook Books | Contact</title>
+				<meta
+					name="description"
+					content="See more about what I do through my LinkedIn and Github links and come check out the artists who created all the images on the website"
+				/>
+			</Head>
 			<HeroSection
 				title="Contact"
 				logo={true}

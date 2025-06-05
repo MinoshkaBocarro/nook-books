@@ -1,9 +1,19 @@
+import Head from "next/head";
+
+// Components
 import BookList from "@/components/features/bookGenres/BookList";
 import HeroSection from "@/components/features/HeroSection";
 
 function HistoricalFictionPage({ books }) {
 	return (
 		<>
+			<Head>
+				<title>Nook Books | Historical Fiction</title>
+				<meta
+					name="description"
+					content="Journey through time with our historical fiction books. Discover captivating stories set in the past on Nook Books."
+				/>
+			</Head>
 			<HeroSection title="Historical Fiction" />
 			<div className="pt-10 px-31">
 				<BookList books={books} />

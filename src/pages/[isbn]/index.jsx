@@ -1,11 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 function BookDetailPage({ book }) {
 	const { title, series, bookNumber, imageUrl, author, description, genre } =
 		book;
 	return (
 		<>
+			<Head>
+				<title>{`Nook Books | ${title}`}</title>
+				<meta
+					name="description"
+					content={`Discover the book ${title} by ${author}. Read the synopsis and explore this book without getting influenced by other reviews on Nook Books`}
+				/>
+			</Head>
 			<div className="grid grid-cols-1 md:grid-cols-[155px_minmax(200px,_1fr)] gap-6 p-6 mx-auto max-w-7xl">
 				<div className="md:col-span-1">
 					{" "}

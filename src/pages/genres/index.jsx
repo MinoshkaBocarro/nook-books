@@ -1,12 +1,20 @@
 import Link from "next/link";
+import Head from "next/head";
 
-// components
+// Components
 import Container from "@/components/common/placement/Container";
 import HeroSection from "@/components/features/HeroSection";
 
 function GenresPage() {
 	return (
 		<>
+			<Head>
+				<title>Nook Books | Genres</title>
+				<meta
+					name="description"
+					content="Quickly and easily browse a wide range of book genres on Book Nook. Discover your next read without distractions and without getting influenced by the rating."
+				/>
+			</Head>
 			<HeroSection
 				title="Genres"
 				subtitle="Explore the following genres!"

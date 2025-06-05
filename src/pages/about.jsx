@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 
 // components
 import HeroSection from "@/components/features/HeroSection";
@@ -7,6 +8,13 @@ import Container from "@/components/common/placement/Container";
 function AboutPage() {
 	return (
 		<>
+			<Head>
+				<title>Nook Books | About</title>
+				<meta
+					name="description"
+					content="Learn more about the philosophy behind Nook Books that aims to create a space for casual and avid readers to explore and discover books effortlessly and without clutter."
+				/>
+			</Head>
 			<HeroSection
 				title="About"
 				logo={true}

@@ -1,9 +1,19 @@
+import Head from "next/head";
+
+// Components
 import BookList from "@/components/features/bookGenres/BookList";
 import HeroSection from "@/components/features/HeroSection";
 
 function RomancePage({ books }) {
 	return (
 		<>
+			<Head>
+				<title>Nook Books | Romance</title>
+				<meta
+					name="description"
+					content="Find heartwarming romance novels and captivating love stories. Browse contemporary romance books on Nook Books!"
+				/>
+			</Head>
 			<HeroSection title="Romance" />
 			<div className="pt-10 px-31">
 				<BookList books={books} />
