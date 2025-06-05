@@ -1,13 +1,30 @@
 // modules
 import Script from "next/script";
+import { useRouter } from "next/router";
+
+import * as ga from "../lib/google-analytics";
 
 // components
 import Layout from "@/components/layout";
 
 // styles
 import "@/styles/globals.css";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
+	const router = useRouter();
+	useEffect(() => {
+		const handleRoutedChange = (url) => {
+			ga.pageView(url);
+		};
+
+		router.events.on("routeChangeComplete", handleRoutedChange);
+
+		return () => {
+			router.events.off("routeChangeComplete", handleRoutedChange);
+		};
+	}, []);
+
 	return (
 		<>
 			<Script
