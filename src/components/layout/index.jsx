@@ -28,7 +28,7 @@ const pacifico = Pacifico({
 function Layout({ children }) {
 	return (
 		<div
-			className={`box-border flex flex-col min-h-screen font-primary bg-background ${breeSerif.variable} ${pacifico.variable} ${nunito.variable}`}
+			className={`box-border flex flex-col min-h-screen font-primary bg-background text-text ${breeSerif.variable} ${pacifico.variable} ${nunito.variable}`}
 		>
 			<Header />
 			<main className="flex flex-col mx-auto my-10 text-2xl grow">
