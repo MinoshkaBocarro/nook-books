@@ -27,6 +27,7 @@ function HeroSection({
 								alt="Nook Books' logo"
 								width={23.31}
 								height={68}
+								priority
 							/>
 							<span className="-mr-10 text-7xl font-brand">
 								Nook Books
