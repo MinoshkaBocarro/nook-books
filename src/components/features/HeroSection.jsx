@@ -22,11 +22,11 @@ function HeroSection({
 					{logo && (
 						<div className="flex pt-4 pr-10">
 							<Image
-								className="relative w-auto h-17 left-4 rotate-6"
+								className="relative left-4"
 								src="/logo.jpg"
 								alt="Nook Books' logo"
-								width="1372"
-								height="3982"
+								width={23.31}
+								height={68}
 							/>
 							<span className="-mr-10 text-7xl font-brand">
 								Nook Books

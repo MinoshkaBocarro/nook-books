@@ -10,11 +10,11 @@ function NotFoundPage() {
 					<p>
 						"Were you looking for a certain{" "}
 						<Image
-							className="inline w-auto h-10"
+							className="inline"
 							src="/tanuki.png"
 							alt="Tanuki"
-							width={512}
-							height={512}
+							width={40}
+							height={40}
 						/>
 						?
 					</p>

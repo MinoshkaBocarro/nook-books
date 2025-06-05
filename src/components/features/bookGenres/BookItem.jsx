@@ -12,14 +12,14 @@ function BookItem({ urlToImage, title, id }) {
 			<div className="flex justify-center p-0 rounded-sm card-body bg-second/50">
 				<figure
 					onClick={handleNavigate}
-					className="relative flex items-center"
+					className="relative w-full sm:max-w-[280px] aspect-[280/429] cursor-pointer overflow-hidden"
 				>
 					<Image
-						className="self-center"
 						src={urlToImage}
 						alt={title}
-						height={429}
-						width={280}
+						fill={true}
+						className="object-contain"
+						sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 280px"
 					/>
 				</figure>
 			</div>

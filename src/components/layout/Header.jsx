@@ -12,11 +12,11 @@ function Header() {
 					>
 						<div className="flex">
 							<Image
-								className="relative w-auto h-9 left-2 rotate-6"
+								className="relative left-2 rotate-6"
 								src="/logo.jpg"
 								alt="Nook Books' logo"
-								width="1372"
-								height="3982"
+								width={12.4}
+								height={36}
 							/>
 							<span className="-mr-10 text-4xl font-brand">
 								Nook Books

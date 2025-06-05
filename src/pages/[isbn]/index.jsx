@@ -11,24 +11,25 @@ function BookDetailPage({ book }) {
 					{" "}
 					<Link href={`/genres/${genre}`}>
 						<Image
-							className="w-auto h-20"
 							src="/book-detail-bookshelf.jpg"
 							alt={`Back to ${genre}`}
-							width={2000}
-							height={2000}
+							width={154.31}
+							height={80}
 						></Image>
 					</Link>
 				</div>
 				<div className="flex flex-col gap-8 rounded-md md:flex-row bg-second/20">
 					<div className="flex items-center flex-shrink-0 w-full md:w-2/5">
-						<Image
-							src={imageUrl}
-							alt={title}
-							width={350}
-							height={525}
-							className="w-full"
-							priority
-						/>
+						<div className="relative w-full max-w-[450px] aspect-[350/525] overflow-hidden">
+							<Image
+								src={imageUrl}
+								alt={title}
+								fill={true}
+								className="object-contain"
+								sizes="(max-width: 768px) 100vw, (max-width: 1024px) 40vw, 350px"
+								priority
+							/>
+						</div>
 					</div>
 					<div className="flex flex-col gap-6 p-4 md:w-2/3">
 						<h1 className="self-center text-5xl font-heading">

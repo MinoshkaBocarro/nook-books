@@ -17,9 +17,8 @@ function AboutPage() {
 				<Image
 					src="/about-page-bookshelf.jpg"
 					alt="A cute cartoon bookshelf"
-					width={2000}
-					height={2000}
-					className="object-scale-down w-auto h-68"
+					width={272}
+					height={272}
 				/>
 				<p className="container text-center padding">
 					I wanted to make browsing and exploring different genres
