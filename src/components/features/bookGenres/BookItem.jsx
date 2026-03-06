@@ -12,7 +12,12 @@ function BookItem({ urlToImage, title, id }) {
 			<div className="flex justify-center p-0 rounded-sm card-body bg-second/50">
 				<figure
 					onClick={handleNavigate}
-					className="relative w-full sm:max-w-[280px] aspect-[280/429] cursor-pointer overflow-hidden"
+					className="relative w-full sm:max-w-70 aspect-280/429 cursor-pointer transition-transform duration-300 
+          ease-out 
+          hover:scale-110 
+          hover:z-50 
+          hover:shadow-2xl
+          "
 				>
 					<Image
 						src={urlToImage}
